@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		BF34A24F22C44D1800662DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34A24E22C44D1800662DDF /* AppDelegate.swift */; };
-		BF34A25122C44D1800662DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34A25022C44D1800662DDF /* ViewController.swift */; };
 		BF34A25422C44D1800662DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF34A25222C44D1800662DDF /* Main.storyboard */; };
 		BF34A25622C44D1900662DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF34A25522C44D1900662DDF /* Assets.xcassets */; };
 		BF34A25922C44D1900662DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF34A25722C44D1900662DDF /* LaunchScreen.storyboard */; };
+		BF3F795B22C6FEAB003DF14A /* HobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F795A22C6FEAB003DF14A /* HobbyViewController.swift */; };
+		BF3F796122C70496003DF14A /* HobbyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796022C70496003DF14A /* HobbyViewCell.swift */; };
+		BF3F796322C70F6E003DF14A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796222C70F6E003DF14A /* Service.swift */; };
+		BF3F796522C7146A003DF14A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796422C7146A003DF14A /* MainViewController.swift */; };
+		BF3F796722C71915003DF14A /* HobbyDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796622C71915003DF14A /* HobbyDetailController.swift */; };
+		BF3F796B22C72FBC003DF14A /* TravellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796A22C72FBC003DF14A /* TravellViewController.swift */; };
+		BF3F796D22C73100003DF14A /* TravellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796C22C73100003DF14A /* TravellModel.swift */; };
+		BF3F796F22C73985003DF14A /* TravellViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F796E22C73985003DF14A /* TravellViewCell.swift */; };
+		BF9CEFAA22C4DF1200D10EE7 /* HobbyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9CEFA922C4DF1200D10EE7 /* HobbyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF34A24B22C44D1800662DDF /* Lesson2TabBarWebinar3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2TabBarWebinar3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF34A24E22C44D1800662DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF34A25022C44D1800662DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF34A25322C44D1800662DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF34A25522C44D1900662DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF34A25822C44D1900662DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF34A25A22C44D1900662DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3F795A22C6FEAB003DF14A /* HobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewController.swift; sourceTree = "<group>"; };
+		BF3F796022C70496003DF14A /* HobbyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewCell.swift; sourceTree = "<group>"; };
+		BF3F796222C70F6E003DF14A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BF3F796422C7146A003DF14A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BF3F796622C71915003DF14A /* HobbyDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyDetailController.swift; sourceTree = "<group>"; };
+		BF3F796A22C72FBC003DF14A /* TravellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellViewController.swift; sourceTree = "<group>"; };
+		BF3F796C22C73100003DF14A /* TravellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellModel.swift; sourceTree = "<group>"; };
+		BF3F796E22C73985003DF14A /* TravellViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellViewCell.swift; sourceTree = "<group>"; };
+		BF9CEFA922C4DF1200D10EE7 /* HobbyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		BF34A24D22C44D1800662DDF /* Lesson2TabBarWebinar3 */ = {
 			isa = PBXGroup;
 			children = (
-				BF34A24E22C44D1800662DDF /* AppDelegate.swift */,
-				BF34A25022C44D1800662DDF /* ViewController.swift */,
-				BF34A25222C44D1800662DDF /* Main.storyboard */,
+				BF34A26222C44D6700662DDF /* View */,
+				BF34A26122C44D5B00662DDF /* Model */,
+				BF34A26022C44D4300662DDF /* Controller */,
 				BF34A25522C44D1900662DDF /* Assets.xcassets */,
-				BF34A25722C44D1900662DDF /* LaunchScreen.storyboard */,
 				BF34A25A22C44D1900662DDF /* Info.plist */,
 			);
 			path = Lesson2TabBarWebinar3;
+			sourceTree = "<group>";
+		};
+		BF34A26022C44D4300662DDF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF3F796422C7146A003DF14A /* MainViewController.swift */,
+				BF3F795A22C6FEAB003DF14A /* HobbyViewController.swift */,
+				BF3F796022C70496003DF14A /* HobbyViewCell.swift */,
+				BF34A24E22C44D1800662DDF /* AppDelegate.swift */,
+				BF3F796622C71915003DF14A /* HobbyDetailController.swift */,
+				BF3F796A22C72FBC003DF14A /* TravellViewController.swift */,
+				BF3F796E22C73985003DF14A /* TravellViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF34A26122C44D5B00662DDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF9CEFA922C4DF1200D10EE7 /* HobbyModel.swift */,
+				BF3F796222C70F6E003DF14A /* Service.swift */,
+				BF3F796C22C73100003DF14A /* TravellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF34A26222C44D6700662DDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF34A25722C44D1900662DDF /* LaunchScreen.storyboard */,
+				BF34A25222C44D1800662DDF /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF34A25122C44D1800662DDF /* ViewController.swift in Sources */,
+				BF3F795B22C6FEAB003DF14A /* HobbyViewController.swift in Sources */,
+				BF3F796122C70496003DF14A /* HobbyViewCell.swift in Sources */,
+				BF3F796322C70F6E003DF14A /* Service.swift in Sources */,
+				BF3F796522C7146A003DF14A /* MainViewController.swift in Sources */,
+				BF9CEFAA22C4DF1200D10EE7 /* HobbyModel.swift in Sources */,
+				BF3F796722C71915003DF14A /* HobbyDetailController.swift in Sources */,
+				BF3F796D22C73100003DF14A /* TravellModel.swift in Sources */,
 				BF34A24F22C44D1800662DDF /* AppDelegate.swift in Sources */,
+				BF3F796B22C72FBC003DF14A /* TravellViewController.swift in Sources */,
+				BF3F796F22C73985003DF14A /* TravellViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
